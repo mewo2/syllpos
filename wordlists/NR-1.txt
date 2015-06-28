@@ -1,0 +1,7 @@
+east
+home
+left
+north
+right
+south
+west

@@ -1,0 +1,7 @@
+down
+in
+off
+on
+out
+through
+up

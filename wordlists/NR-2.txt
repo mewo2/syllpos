@@ -1,0 +1,7 @@
+downtown
+northeast
+northwest
+southeast
+southwest
+today
+tonight

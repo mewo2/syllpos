@@ -1,0 +1,8 @@
+brightest
+deepest
+farthest
+fastest
+hardest
+highest
+loudest
+nearest
