@@ -15,9 +15,11 @@ for word, phones in pronouncing.pronunciations:
 print "Counting syllables"
 by_pos_count = defaultdict(set)
 for word, tag in brown.tagged_words():
+    if word[0].isupper() and not tag.startswith("NP"):
+        continue
     tag = tag.split('-')[0]
     try:
-        count = sylcount[word]
+        count = sylcount[word.lower()]
     except:
         continue
     by_pos_count[tag, count].add(word)
